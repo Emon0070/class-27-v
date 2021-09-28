@@ -1,0 +1,17 @@
+@media (max-width:768px){
+    .video-content h1 {
+        font-size: 26px;
+    }
+    .video-content p {
+        font-size: 18px;
+
+    }
+
+    .service-title h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .service-title h3 {
+        font-size: 18px;
+    }
+}
