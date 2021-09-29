@@ -1,7 +1,306 @@
-@media (max-width:768px){
+@media (max-width:1400px) {
+    .min-width {
+        width: 1200px;
+        margin: auto;
+    }
+
+    .header-btn a {
+        margin-right: 40px;
+    }
+
+    .services {
+        margin-right: 30px;
+    }
+
+    .prices-btn a {
+        padding: 20px 80px;
+    }
+
+    .prices-heading p {
+        font-size: 21px;
+    }
+}
+
+@media (max-width:1230px) {
+
+    .min-width {
+        width: 100%;
+        padding: 0 30px;
+        box-sizing: border-box;
+
+    }
+
+    .header-btn a {
+        margin-right: 0;
+    }
+
+    .text-right {
+        text-align: center;
+    }
+
+    .services {
+        width: 48%;
+    }
+
+    .services {
+        margin-right: 20px;
+    }
+
+    .services:nth-child(3n+3) {
+        margin-right: 20px;
+    }
+
+    .services:nth-child(2n+2) {
+        margin-right: 0;
+    }
+
+    .video-content h1 {
+        font-size: 35px;
+    }
+
+    .prices-heading p {
+        font-size: 18px;
+    }
+
+    .prices-btn a {
+        font-size: 20px;
+        padding: 20px 50px;
+    }
+
+    .prices-heading {
+
+        padding: 20px;
+
+    }
+
+    .video-content {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .service-title h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .team-title h1 {
+        font-size: 40px;
+        margin-bottom: 70px;
+    }
+
+    .members {
+        margin-right: 20px;
+    }
+    /* .blog-items {
+        width: 70%;
+        margin: 30px auto;
+        float: inherit;
+    } */
+}
+
+@media (max-width:1100px) {
+    .blog-items {
+        width: 48%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .blog-items img {
+        width: 100%;
+        float: none;
+    }
+    .maps {
+        width: 75%;
+        margin: auto;
+        float: inherit;
+    }
+    .forms {
+        width: 75%;
+        margin: auto;
+        float: inherit;
+    }
+    .w-50 {
+        width: 36% ;
+        margin-right: 10px;
+    }
+}
+@media (max-width:1020px) {
+    .header-btn a {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .logo a span {
+        font-size: 20px;
+    }
+
+    .price-title h4 {
+        font-size: 18px;
+    }
+
+    .price-title h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .prices {
+        width: 60%;
+        margin: 50px auto;
+        float: inherit;
+    }
+
+    .prices:nth-child(3) {
+        margin-right: auto;
+    }
+
+    .service-title h3 {
+        font-size: 22px;
+    }
+
+    .service-title h1 {
+        font-size: 40px;
+    }
+
+    .prices-btn a {
+        padding: 20px 100px;
+    }
+
+    .members-bio {
+        padding: 20px 30px;
+    }
+
+    .members-bio h2 {
+
+        font-size: 20px;
+    }
+
+    .members-bio p {
+        font-size: 17px;
+    }
+    .subscribe-option form input {
+        width: 30%;
+    }
+    .t-title h2 {
+        font-size: 22px;
+    }
+    .t-title h1 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .t-items:last-child {
+        margin-right: auto;
+    }
+    .t-items {
+        width: 50%;
+
+        margin: 50px auto;
+        float: inherit ;
+    }
+
+
+}
+
+/* css-extra */
+.header {}
+
+.header .bars {
+    opacity: 0;
+    visibility: hidden;
+    font-size: 40px;
+    color: #6278df;
+    display: none;
+}
+
+@media (max-width:850px) {
+    .header {
+        position: inherit;
+        position: relative;
+    }
+
+    .header-menu {
+        width: 100%;
+
+        display: none;
+    }
+
+    .header-btn {
+        position: absolute;
+        right: 20px;
+        bottom: 17px;
+        width: 250px;
+        text-align: right;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .header .bars {
+        opacity: 1;
+        visibility: visible;
+        display: block;
+    }
+
+    .banner-section {
+        padding: 100px 0;
+        margin-top: 0;
+
+    }
+
+    .header-menu ul {
+        margin-bottom: 0;
+        opacity: 0;
+        height: 0;
+        visibility: hidden;
+    }
+
+    .members {
+        width: 48%;
+        margin-bottom: 50px;
+    }
+
+    .members:nth-child(2n+2) {
+        margin-right: 0;
+    }
+    .team-title h1 {
+        font-size: 35px;
+    }
+    .subscribe-title p {
+        font-size: 24px;
+    }
+
+    .subscribe-title h1 {
+        font-size: 38px;
+    }
+    .maps {
+        width: 100%;
+    }
+    .forms {
+        width: 100%;
+        text-align: center;
+    }
+    .forms form textarea {
+        margin: 20px auto;
+    }
+    .w-50 {
+        width: 37% !important;
+    }
+    .padding {
+        padding: 30px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:768px) {
     .video-content h1 {
         font-size: 26px;
     }
+
     .video-content p {
         font-size: 18px;
 
@@ -11,7 +310,304 @@
         font-size: 30px;
         margin-bottom: 10px;
     }
+
     .service-title h3 {
         font-size: 18px;
     }
+
+    .services {
+        width: 100%;
+    }
+
+    .prices {
+        width: 80%;
+    }
+
+    .price-title h1 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .price-title h4 {
+        font-size: 15px;
+    }
+
+
+
+    .team-title h1 {
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+
+    .subscribe-option form input {
+        width: 50%;
+        display: block;
+        margin: 20px auto;
+    }
+    .subscribe-option form button {
+        margin-left: 0;
+    }
+    .subscribe-title h1 {
+        font-size: 35px;
+        margin: 30px 0;
+    }
+
+    .blog-title {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .blog-items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .blog-info {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .t-title h2 {
+        font-size: 20px;
+    }
+    .t-title h1 {
+        font-size: 25px;
+    }
+    .t-items {
+        width: 100%;
+    }
+    .t-items-p p {
+        font-size: 18px;
+    }
+    .w-50 {
+        width: 82% !important;
+    }
+    .padding {
+        padding: 30px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:576px) {
+
+
+    .banner-content h3 {
+        font-size: 20px;
+    }
+
+    .banner-content h2 {
+        font-size: 40px;
+    }
+
+    .defult-btn {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .video-content h1 {
+        font-size: 20px;
+    }
+
+    .video-content p {
+        font-size: 15px;
+        padding-right: 0px;
+        line-height: 26px;
+    }
+
+    .service-title h1 {
+        font-size: 22px;
+    }
+
+    .service-title h3 {
+        font-size: 15px;
+    }
+
+    .services-content h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .services-content p {
+        font-size: 1.2rem;
+    }
+
+    .services {
+        height: 200px;
+    }
+
+    .prices {
+        width: 100%;
+    }
+
+    .prices-btn a {
+        padding: 20px 85px;
+    }
+
+    .prices-heading h1 {
+        font-size: 45px;
+        margin: 30px 0;
+    }
+
+    .prices-feature ul li i {
+        font-size: 1.5rem;
+    }
+
+    .prices-feature ul li {
+        margin: 25px 0;
+        font-size: 20px;
+
+    }
+
+    .prices-btn {
+        padding-bottom: 15px;
+    }
+
+    .price-title h1 {
+        font-size: 29px;
+        margin-bottom: 10px;
+    }
+
+    .members {
+        width: 100%;
+    }
+    .team-title h1 {
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+    .subscribe-title h1 {
+        font-size: 28px;
+    }
+    .subscribe-title p {
+        font-size: 20px;
+    }
+    .subscribe-option form input {
+        width: auto;
+        height: 50px;
+        font-size: 18px;
+    }
+    .subscribe-option form button {
+        margin-left: 0;
+        padding: 15px 60px;
+        font-size: 18px;
+    
+    }
+    .blog-title h2 {
+        font-size: 32px;
+    }
+    .blog-info p {
+        font-size: 18px;
+    }
+    .t-title h2 {
+        font-size: 16px;
+    }
+    .t-title h1 {
+        font-size: 20px;
+    }
+    .forms form input {
+        width: 100%;
+        padding: 10px 20px;
+     box-sizing: border-box;
+    }
+    .forms form textarea {
+        width: 100%;
+   box-sizing: border-box;
+    }
+    .w-50 {
+        width: 100% ;
+        margin-right: 0;
+    }
+    .forms form button {
+        width: 100%;
+        padding: 15px;
+        font-size: 20px;
+     
+    }
+}
+@media (max-width:470px){
+    .team-title h1 {
+        font-size: 19px;
+        margin-bottom: 50px;
+    }
+    .subscribe-title p {
+        font-size: 18px;
+    }
+    .subscribe-title h1 {
+        font-size: 24px;
+    }
+    .padding {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:430px) {
+
+    .banner-content h3 {
+        font-size: 16px;
+    }
+
+    .banner-content h2 {
+        font-size: 30px;
+    }
+
+    .video-content h1 {
+        font-size: 18px;
+    }
+
+    .service-title h1 {
+        font-size: 17px;
+    }
+
+    .service-title h3 {
+        font-size: 14px;
+    }
+
+    .services-content h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .services-content p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .prices-btn a {
+        padding: 20px 40px;
+        font-size: 18px;
+    }
+
+    .prices-heading h2 {
+        font-size: 20px;
+    }
+
+    .prices-heading h1 {
+        font-size: 35px;
+        margin: 20px 0;
+    }
+
+    .prices-heading h3 {
+        margin-bottom: 20px;
+    }
+
+    .prices-feature ul li {
+        margin: 15px 0;
+
+    }
+
+    .price-title h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .team-title h1 {
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+    .subscribe-title p {
+        font-size: 15px;
+    }
+    .subscribe-title h1 {
+        font-size: 19px;
+    }
+    .padding {
+        font-size: 11px;
+    }
+
+
 }
