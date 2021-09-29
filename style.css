@@ -48,7 +48,7 @@ clear: both;
 img{
     max-width: 100%;
 }
-.focuses:focus{box-shadow: 3px 3px 27px -3px #6278df; border:1px solid #6e81e1;}
+.focuses:focus{box-shadow: 3px 3px 27px -3px #6278df !important; border:1px solid #6e81e1;}
 .outline-hov{transition: .5s;}
 .outline-hov:hover{
     background: #fff;
@@ -57,7 +57,7 @@ img{
     box-shadow: 3px 3px 27px -3px #6278df;
 }
 .shadows{transition: .5s;}
-.shadows:hover{ box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);}
+.shadows:hover{ box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%) !important;}
 /* =====================Templete-Css ==================*/
 
 .header{
@@ -152,7 +152,7 @@ width: 55%;
     color: #6278df !important;
     transition: .5s;
 }
-.header-btn a:hover{  box-shadow: 3px 3px 27px -3px #6278df;}
+.header-btn a:hover{  box-shadow: 3px 3px 27px -3px #6278df !important;}
 .hovers{transition: .5s;}
 .hovers:hover{
     background: #6278df;
@@ -253,7 +253,7 @@ font-size: 26px;
 }
 .services{
     width: 31.5%;
-    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%) !important;
     margin-right: 35px;
     margin-bottom: 30px;
     padding: 50px 35px;
@@ -311,7 +311,7 @@ color: #6278df;
     border-radius: 5px;
     padding-bottom: 30px;
     box-sizing: border-box;
-    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%) !important;
 }
 .prices:hover .prices-heading{
     background: #6e81e1 !important;
@@ -368,7 +368,7 @@ color: #6278df;
 }
 .prices-btn a{
     /* background: #fff; */
-    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%) !important;
     padding: 20px 90px;
     border-radius: 8px;
     font-size: 22px;
@@ -402,7 +402,7 @@ color: #6278df;
 }
 .team-member{}
 .members{
-    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%) !important;
     width: 23%;
     margin-right: 30px;
     border-radius: 0 0 5px 5px;
@@ -460,7 +460,7 @@ color: #6278df;
     border-radius: 5px;
     border: 1px solid #e4e4e4;
     outline: none;
-    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%) !important;
 
 }
 .subscribe-option form button{
@@ -472,7 +472,7 @@ color: #6278df;
     background: #6278df;
     border-radius: 5px;
     color: #fff;
-    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%) !important;
     border: 2px solid transparent;
 
 }
@@ -503,7 +503,7 @@ color: #6278df;
 .blog-items{
     width: 49%;
     background: #fff;
-    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%) !important;
     border-radius: 5px;
 }
 .blog-items img{
@@ -558,7 +558,7 @@ color: #6278df;
     background: #fff;
     margin-bottom: 40px;
     position: relative;
-    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%) !important;
 
 }
 
@@ -653,7 +653,7 @@ border-color: #ffffff transparent transparent transparent;
     font-size: 20px;
     color: #767676;
     font-weight: 300;
-    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%) !important;
     outline: none;
 
 }
@@ -667,7 +667,7 @@ border-color: #ffffff transparent transparent transparent;
     color: #767676;
     font-weight: 300;
     padding: 20px;
-    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%) !important;
     outline: none;
 }
 .forms form button{
@@ -679,7 +679,7 @@ border-color: #ffffff transparent transparent transparent;
     font-size: 22px;
     font-weight: 700;
     color: #fff;
-    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%) !important;
 
 }
 .w-50{
